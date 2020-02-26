@@ -1,4 +1,4 @@
-# forca-jogo
+# jogo-da-forca
 
 Implementação simples do jogo da forca em Python para testar alguns conceitos básicos.
 
