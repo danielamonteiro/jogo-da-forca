@@ -26,8 +26,9 @@ def game():
         elif "*" in word_to_show and attempts >= max_attempts:
             print("VOCÊ PERDEU! :(")
             print("Vocêr atingiu o número máximo de tentativas e não conseguiu descobrir a palavra.")
+            print("A palavra era:", word)
             return word_to_show
-            
+
         next_letter = get_next_letter()
         attempts += 1
         if next_letter in past_letters or next_letter in correct_words:
